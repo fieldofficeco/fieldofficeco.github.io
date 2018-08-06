@@ -90,8 +90,8 @@ section.container .row {
   display: inline-block;
   color: #ffffff;
   font-weight: bold;
-  padding: 5px;
-  border-radius: 5px;
+  padding: 1px 5px;
+  border-radius: 1px;
   border: none;
 }
 
