@@ -27,7 +27,7 @@ figure img {
 
 figure {
   margin-bottom: 30px;
-  display: block;
+  display: flex;
 }
 
 header nav {
@@ -73,6 +73,7 @@ header .row {
   margin: 25px 20px 15px;
   min-width: 60px;
   padding: 1px;
+  display: flex;
 }
 
 .skills {
