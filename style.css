@@ -78,7 +78,6 @@ header .row {
 .skills {
   display: flex;
   flex-wrap: wrap;
-  align-items: right;
 }
 
 section.container .row {
