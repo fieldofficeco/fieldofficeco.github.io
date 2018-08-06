@@ -74,6 +74,12 @@ header .row {
   padding: 1px;
 }
 
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: right;
+}
+
 section.container .row {
   display: flex;
   flex-wrap: wrap;
