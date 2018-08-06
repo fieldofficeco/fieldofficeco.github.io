@@ -105,7 +105,7 @@ section.container .row {
   display: inline-block;
   color: #ffffff;
   letter-spacing: 1px;
-  Text-transform: uppercase;
+  text-transform: none;
   font-weight: bold;
   padding: 1px 5px;
   border-radius: 1px;
