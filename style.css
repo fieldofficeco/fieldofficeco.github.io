@@ -72,7 +72,7 @@ header .row {
 section.container .row {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: right;
   justify-content: center;
 }
 
