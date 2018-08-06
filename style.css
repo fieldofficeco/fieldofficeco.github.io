@@ -90,6 +90,8 @@ section.container .row {
   background-color: rgba(1, 1, 1, 0.3);
   display: inline-block;
   color: #ffffff;
+  letter-spacing: 1px;
+  Text-transform: uppercase;
   font-weight: bold;
   padding: 1px 5px;
   border-radius: 1px;
