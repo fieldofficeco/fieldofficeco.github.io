@@ -85,6 +85,14 @@ section.container .row {
   background-position: center;
 }
 
+.jumbotron h1 {
+  font-family: 'Roboto Sans', sans-serif;
+  font-size: 30px;
+  text-transform: none;
+  letter-spacing: 1px:
+  font-weight: normal;
+}
+
 .jumbotron h2 {
   font-family: 'Open Sans', sans-serif;
   background-color: rgba(1, 1, 1, 0.3);
