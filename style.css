@@ -16,7 +16,7 @@ body {
 
 ul {
   list-style: none;
-  display: block;
+  display: wrap;
   justify-content: flex-start;
 }
 
