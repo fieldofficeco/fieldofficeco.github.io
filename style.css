@@ -90,9 +90,9 @@ section.container .row {
   display: inline-block;
   color: #ffffff;
   font-weight: bold;
-  padding: 10px 35px;
+  padding: 5px;
   border-radius: 5px;
-  border: 1px #ffffff solid;
+  border: none;
 }
 
 .jumbotron h3 {
