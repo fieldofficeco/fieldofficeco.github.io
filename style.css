@@ -6,7 +6,6 @@ h1 {
   font-size: 30px;
   text-transform: none;
   letter-spacing: 1px:
-  font-weight: normal;
   padding: 1px 5px;
   border-radius: 1px;
 }
@@ -92,8 +91,9 @@ section.container .row {
 }
 
 .jumbotron h1 {
-  font-family: 'Roboto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
+  font-color: #ffffff;
   text-transform: none;
   letter-spacing: 1px:
   font-weight: normal;
