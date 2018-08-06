@@ -16,8 +16,8 @@ body {
 
 ul {
   list-style: none;
-  display: flex;
-  justify-content: flex-end;
+  display: block;
+  justify-content: flex-start;
 }
 
 figure img {
