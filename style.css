@@ -62,6 +62,10 @@ footer div {
   align-items: center;
 }
 
+.role {
+  display: block;  
+}
+
 /* Customizations of Bootstrap classes */
 
 header .row {
