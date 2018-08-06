@@ -27,6 +27,7 @@ figure img {
 
 figure {
   margin-bottom: 30px;
+  display: flex;
 }
 
 header nav {
@@ -83,7 +84,7 @@ header .row {
 section.container .row {
   display: flex;
   flex-wrap: wrap;
-  align-items: left;
+  align-items: right;
   justify-content: center;
 }
 
