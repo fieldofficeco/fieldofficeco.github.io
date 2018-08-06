@@ -26,8 +26,8 @@ figure img {
 }
 
 figure {
-  margin-bottom: 100px;
-  display: flex;
+  margin-bottom: 30px;
+  display: block;
 }
 
 header nav {
