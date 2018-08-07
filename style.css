@@ -16,6 +16,12 @@ h3 {
   font-size: 1em;
 }
 
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -111,13 +117,35 @@ section.container .row {
   background-position: center;
 }
 
+//* 
+.jumbotron h1 {
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 30px;
+  font-color: #ffffff;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-weight: normal;
+}
 
+.jumbotron h2 {
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgba(35, 35, 35, 0.5);
+  display: inline-block;
+  color: #ffffff;
+  letter-spacing: 1px;
+  text-transform: none;
+  font-weight: bold;
+  padding: 1px 5px;
+  border-radius: 1px;
+  border: none;
+}
 
 
 .jumbotron h3 {
   color: #FFFFFF;
   font-weight: bold;
 }
+*//
 
 .btn-primary {
   color: #2e6da4;
