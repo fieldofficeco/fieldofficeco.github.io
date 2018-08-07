@@ -18,6 +18,8 @@ h3 {
 
 h4 {
   font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  background-color: rgba(36, 35, 35, 0.50);
   font-weight: lighter;
   font-size: 1em;
 }
