@@ -92,6 +92,7 @@ header .row {
 .skills {
   display: inline-flex;
   flex-wrap: wrap;
+  background-color; #fcfcfc;
 }
 
 section.container .row {
