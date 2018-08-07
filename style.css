@@ -63,8 +63,8 @@ footer div {
 }
 
 .role {
-  display: block; 
-  align-items: left;
+  display: inline-block; 
+  align-items: center;
 }
 
 /* Customizations of Bootstrap classes */
