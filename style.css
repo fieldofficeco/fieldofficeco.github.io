@@ -10,6 +10,12 @@ h1 {
   border-radius: 1px;
 }
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -79,8 +85,12 @@ header .row {
   padding: 1px;
 }
 
+.container {
+
+}
+
 .skills {
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
 }
 
