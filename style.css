@@ -16,6 +16,7 @@ h3 {
   font-size: 1em;
 }
 
+/* Role */
 h4 {
   font-family: 'Montserrat', sans-serif;
   color: #ffffff;
@@ -128,21 +129,22 @@ section.container .row {
   letter-spacing: 1px;
   font-weight: normal;
 }
+*//
 
-.jumbotron h2 {
+.jumbotron h4 {
   font-family: 'Montserrat', sans-serif;
   background-color: rgba(35, 35, 35, 0.5);
   display: inline-block;
   color: #ffffff;
   letter-spacing: 1px;
   text-transform: none;
-  font-weight: bold;
+  font-weight: lighter;
   padding: 1px 5px;
   border-radius: 1px;
   border: none;
 }
 
-
+//*
 .jumbotron h3 {
   color: #FFFFFF;
   font-weight: bold;
