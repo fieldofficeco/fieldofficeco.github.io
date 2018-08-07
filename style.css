@@ -110,27 +110,8 @@ section.container .row {
   background-position: center;
 }
 
-.jumbotron h1 {
-  font-family: 'Playfair Display', sans-serif;
-  font-size: 30px;
-  font-color: #ffffff;
-  text-transform: none;
-  letter-spacing: 1px;
-  font-weight: normal;
-}
 
-.jumbotron h2 {
-  font-family: 'Montserrat', sans-serif;
-  background-color: rgba(35, 35, 35, 0.5);
-  display: inline-block;
-  color: #ffffff;
-  letter-spacing: 1px;
-  text-transform: none;
-  font-weight: bold;
-  padding: 1px 5px;
-  border-radius: 1px;
-  border: none;
-}
+
 
 .jumbotron h3 {
   color: #FFFFFF;
