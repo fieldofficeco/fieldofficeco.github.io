@@ -1,5 +1,5 @@
 h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Playfair Display', sans-serif;
   color: #ffffff;
   background-color: rgba(1, 1, 1, 0.3);
   display: inline-block;
@@ -101,7 +101,7 @@ section.container .row {
 }
 
 .jumbotron h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 30px;
   font-color: #ffffff;
   text-transform: none;
@@ -110,7 +110,7 @@ section.container .row {
 }
 
 .jumbotron h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background-color: rgba(1, 1, 1, 0.3);
   display: inline-block;
   color: #ffffff;
