@@ -3,28 +3,83 @@ h1 {
   color: #ffffff;
   background-color: none;
   display: inline-block;
-  font-size: 30px;
+  font-size: 50px;
   text-transform: none;
   letter-spacing: 1px;
   padding: 1px 5px;
   border-radius: 1px;
 }
 
-h3 {
+h5 a {
+    display:inline-flex;
+    padding-left: 1px;
+    padding-right: 1px;
+    color: #333333;
+}
+
+h5 a:hover { 
+    color: #666666;
+    background-color: #eeee22;
+    text-decoration: none;
+}
+
+/* Subtitle */
+.container h3 {
+  font-family: 'Montserrat', serif;
+  font-size: 1.1rem;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+
+.container h5 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: lighter;
+  font-weight: normal;
   font-size: 1em;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-size: 1em;
+}
+    
+/* Font Awesome */
+.fa-chevron-right {
+  color: #999999;
+}
+
+.fa-instagram {
+    color: white;
+    font-weight: normal;
+    padding-right: 10px;
+}
+
+.fa-linkedin-in {
+    color: white;
+    font-weight: normal;
+    padding-right: 10px; 
+}
+
+.fa-envelope {
+    color: white;
+    font-weight: normal;
+    padding-right: 10px; 
 }
 
 /* Role */
-h4 {
+.container h4 {
   font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  background-color: rgba(36, 35, 35, 0.50);
-  font-weight: lighter;
-  font-size: 1em;
+  font-weight: normal;
+  font-size: 1.5em;
+  padding-bottom: 0em;
+  line-height: 20px;
 }
 
+/* Details */
+
+}
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -40,9 +95,23 @@ figure img {
   height: auto;
 }
 
-figure {
-  margin-bottom: 30px;
-  display: flex;
+//*.skills p {
+    padding-bottom: 20em;
+}*//
+
+.row p {
+    margin-bottom: 2em;
+    margin-top: -.4em;
+    color: blue;
+}
+
+.skills p {
+    margin-bottom: 2em;
+    margin-top: -.4em;
+    color: blue;
+}
+.social {
+    display: flex;
 }
 
 header nav {
@@ -81,6 +150,12 @@ footer div {
 
 }
 
+.projects {
+    display: grid;
+    align-content: flex-end;
+    
+}
+
 /* Customizations of Bootstrap classes */
 
 header .row {
@@ -94,62 +169,126 @@ header .row {
   padding: 1px;
 }
 
-.container {
+//*.container {
+  padding-top: 50px;
+  margin: 0px;
+}*//
+
+.subtitle {
+    
+}
+
+.gray {
+  justify-content: center;
+  align-content: center;
+  min-height: 100%;
+  min-width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(35, 35, 35, 0.03);
 
 }
 
+.white {
+  justify-content: center;
+  align-content: center;
+  min-height: 100%;
+  min-width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: rgba(255, 255, 255, 1);
+
+}
+
+.intro {
+  background: rgba(23, 23, 23, .5);
+  padding: 10px;
+  justify-content: center;
+}
+
 .skills {
-  display: inline-flex;
+  display: block;
+}
+
+.row-skills {
+  display: flex;
   flex-wrap: wrap;
-  background-color; #fcfcfc;
+}
+
+.experience-row {
+  display: block;    
+    
 }
 
 section.container .row {
   display: flex;
   flex-wrap: wrap;
-  align-items: right;
+  align-items: center;
   justify-content: center;
 }
 
 .jumbotron {
   display: flex;
   align-items: center;
-  height: 350px;
+  height: 500px;
   background-image: url("https://fieldoffice.co/wp-content/uploads/2018/02/Rebecca-Silus-About-Grid-Horizontal.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center, center;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-//* 
+.row-jumbotron {
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-items: center;  
+    background-color: rgba(35,35,35,0.99);
+    background-size: cover; 
+    background-position: top;
+    background-repeat: repeat;
+    padding: 5px 5px 5px 5px;
+}
+
 .jumbotron h1 {
   font-family: 'Playfair Display', sans-serif;
-  font-size: 30px;
-  font-color: #ffffff;
+  font-size: 40px;
+  color: white;
+  /*background-color:rgba(35,35,35,0.5);*/
   text-transform: none;
   letter-spacing: 1px;
   font-weight: normal;
 }
-*//
 
-.jumbotron h4 {
-  font-family: 'Montserrat', sans-serif;
-  background-color: none;
-  display: inline-block;
-  color: #ffffff;
-  letter-spacing: 1px;
-  text-transform: none;
-  font-weight: lighter;
-  padding: 1px 5px;
-  border-radius: 1px;
-  border: none;
-}
-
-//*
 .jumbotron h3 {
   color: #FFFFFF;
   font-weight: bold;
 }
-*//
+
+.jumbotron h4 {
+  font-family: 'Montserrat', sans-serif;
+  /*background-color:rgba(35,35,35,0.5);*/
+  display: inline-block;
+  color: #ffffff;
+  letter-spacing: 0px;
+  text-transform: none;
+  font-weight: lighter;
+  padding: 1px 5px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2em;
+}
+
+.jumbotron h6 {
+  font-family: 'Montserrat', sans-serif;
+  /*background-color:rgba(35,35,35,0.5);*/
+  color: #ffffff;
+  letter-spacing: 0px;
+  text-transform: none;
+  font-weight: normal;
+  padding: 1px 5px;
+  border: none;
+  font-size: .9em;
+}
 
 .btn-primary {
   color: #2e6da4;
